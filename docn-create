@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source $HOME/.vars
+
+doctl compute droplet create --region nyc1 --image ubuntu-22-10-x64 --size s-1vcpu-1gb --ssh-keys "$DOCN_SSH_PUB_KEY_PRINT" $1
