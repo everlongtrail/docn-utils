@@ -2,4 +2,4 @@
 
 source ~/.vars 
 
-ssh -i $DOCN_SSH_KEY root@$1
+ssh -i $DOCN_SSH_KEY -y root@$1
