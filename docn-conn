@@ -1,3 +1,5 @@
 #!/bin/bash
 
-ssh -i ~/.ssh/id_docn root@$1
+source ~/.vars 
+
+ssh -i $DOCN_SSH_KEY root@$1
